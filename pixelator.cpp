@@ -32,7 +32,7 @@ int main(int argc, const char *argv[]) {
 		OPT_GROUP("Optional parameters"),
 		OPT_STRING('o', "output-file", &outfile,
 				"name of output file (default is output.ppm)"),
-		OPT_INTEGER('b', "pixel-width", &pixelWidth,
+		OPT_INTEGER('p', "pixel-width", &pixelWidth,
 				"how wide to make each pixel (default is 30)"),
 		OPT_END(),
 	};
